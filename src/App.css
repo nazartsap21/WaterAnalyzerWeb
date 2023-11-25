@@ -1,4 +1,35 @@
 
-.header {
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
     text-align: center;
-}
+  }
+  
+  .user-list {
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .user-card {
+    border: 1px solid #16a6d2;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .popup-style {
+    border: 1px solid #16a6d2;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+    padding: 10px;
+    margin: 10px;
+  }
