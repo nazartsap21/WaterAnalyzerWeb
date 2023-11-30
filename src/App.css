@@ -1,4 +1,54 @@
 
-.header {
+  
+  .header {
     text-align: center;
-}
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+
+  table.value td {
+    padding: 40px;
+    border: none;
+    text-align: center;
+  }
+  
+  
+  .water-condition{
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .time {
+    text-align: center;
+  }
+
+  .buttons-table {
+    width: 100%;
+    border-collapse: collapse;
+    display: grid;
+  }
+  .buttons-table td {
+    padding: 10px;
+    border: none;
+    text-align: center;
+  }
+
+  .buttons-table button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 12px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
