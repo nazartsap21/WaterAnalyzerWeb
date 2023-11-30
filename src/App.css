@@ -1,35 +1,54 @@
 
-.app-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
   
   .header {
     text-align: center;
-  }
-  
-  .user-list {
-    background-attachment: fixed;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .user-card {
-    border: 1px solid #16a6d2;
-    border-style: solid;
-    border-radius: 12px;
-    border-width: 2px;
-    padding: 10px;
-    margin: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
   }
 
-  .popup-style {
-    border: 1px solid #16a6d2;
-    border-style: solid;
-    border-radius: 12px;
-    border-width: 2px;
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+
+  table.value td {
+    padding: 40px;
+    border: none;
+    text-align: center;
+  }
+  
+  
+  .water-condition{
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .time {
+    text-align: center;
+  }
+
+  .buttons-table {
+    width: 100%;
+    border-collapse: collapse;
+    display: grid;
+  }
+  .buttons-table td {
     padding: 10px;
-    margin: 10px;
+    border: none;
+    text-align: center;
+  }
+
+  .buttons-table button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 12px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
   }
